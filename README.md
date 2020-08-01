@@ -20,7 +20,7 @@ I chose to use Windows instead of Mac or Linux becasue SSH with those is only 2 
 
 We will start with the consol which is what you will see once you log into AWS.
 
-#### First we will select ECR and begin launching an instance
+#### First we will select EC2 and begin launching an instance
 
 Navigate to EC2 from the consol
 

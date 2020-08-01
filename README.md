@@ -320,4 +320,24 @@ Here we use the direct connect feature, which means you no longer need putty.
 <img src="https://github.com/MatSalm/PortfolioDemonstration/blob/master/16_connectButton.gif?raw=true" width="700"/>
 </div> 
 
+# For those who do not mind paying a little extra (about $5 per 24 hours of runtime) for a basic 8-core , 32GB, Pyspark Multithreaded Experience in 5 minutes
+
+**Click the link below**
+
+You shuold terminate this EMR cluster after each use. It is super easy to access, super easy to spin up, and you can connect to an existing S3 bucket where your keep you datasets.
+
+I will be opening port 8890 and 22, but they will need to be closed before spinning up your next cluster and re-opened to prevent your cluster from self terminating (unless you configure a security group). 
+
+This is a full video with great quality and limited explanation. It is that easy.
+
+Please notice I type ":8890" after the DNS name to begin using the zeppelin notebook
+
+You will need to execute this code at the begining of each session and include "%pyspark" which will automatically appear in each code chunk from now on.
     
+    %pyspark
+    
+    from pyspark.sql import SparkSession
+    
+    spark = SparkSession.builder.appName('mySessionName').getOrCreate()
+
+[![AWS EMR](https://i.imgur.com/StuJUE7.png)](https://www.youtube.com/watch?v=RVReQHo7LEM "AWS EMR")

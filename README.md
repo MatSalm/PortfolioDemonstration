@@ -340,4 +340,6 @@ You will need to execute this code at the begining of each session and include "
     
     spark = SparkSession.builder.appName('mySessionName').getOrCreate()
 
+*Click the image below*
+
 [![AWS EMR](https://i.imgur.com/StuJUE7.png)](https://www.youtube.com/watch?v=RVReQHo7LEM "AWS EMR")

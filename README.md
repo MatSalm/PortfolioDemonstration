@@ -46,9 +46,9 @@ You will get 8GB of storage in this instance free as an EBS volume (storage dedi
 
 #### Next we will add our tags and configure a security group:
 
-•	Here the key is '"myspark" and the value is "mymachine" and you should make note of this for later. If you choose to edit security groups later, but we will not inthis tutorial.
+•	Here the key is '"myspark" and the value is "mymachine" and you should make note of this for later. If you choose to edit security groups later, but we will not in this tutorial.
 
-#### Next you want to make sure "Crete new security group" is selected and change the type to "All Traffic"
+#### Next you want to make sure "Create new security group" is selected and change the type to "All Traffic"
 
 •	You will see a security warning here, but you want to easily access your EC2 instance. If you are on a company platform or need additional security you will want to add additional security to your instance.
 
